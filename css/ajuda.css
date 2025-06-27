@@ -1,0 +1,78 @@
+* {
+  color: #4b525c;
+}
+
+.titulo-principal {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin: 0;
+}
+
+.titulo-principal > H1 {
+  display: inline-block;
+  width: 90%;
+}
+
+.problematizacao {
+  background-color: #aab9cf;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.problematizacao > p {
+  padding: 0 1rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  display: flex;
+  line-height: 1;
+}
+
+.problemas {
+  padding: 0;
+  padding-left: 2.5rem;
+}
+
+.problemas > li {
+  margin-top: 0.5rem;
+}
+
+.solucoes {
+  background-color: #d3ead3;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.solucoes > h1 {
+  width: 92%;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin: auto;
+}
+
+.solucoes > ul {
+  list-style: none;
+}
+
+.solucoes-lista {
+  padding: 0;
+  padding-left: 2rem;
+}
+
+.solucoes-lista > li {
+  margin-top: 0.5rem;
+}
+
+.to-do {
+  background-color: #f2e394;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
