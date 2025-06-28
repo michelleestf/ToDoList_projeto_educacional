@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #F0F3F3;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* Estilo do header */
+header {
+    width: 100%;
+    padding: 40px 0;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 40px;
+}
+
+.about-desktop nav ul {
+    list-style-type: none;
+}
+
+.about-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.about-desktop nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+}
+
+.about-desktop nav a:hover {
+    transform: scale(1.05);
+    transition: 0.8s;
+}
+
+/* introdução do about */
+section.about-site {
+    height: 98vh;
+    background-color: #B0B0B0;
+    background-size: cover;
+    background-position: center;
+    color: #F0F3F3;
+    padding-top: 120px;
+
+}
+
+.about-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.about-site .txt-about h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 300;
+    padding: 20px;
+}
+
+.about-site .txt-about h1 span {
+    color: #413f3f;
+    font-weight: 700;
+}
+
+.about-site .txt-about p {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.about-site .txt-about p span {
+    display: block;
+}
+
+/* estilo do quem somos */
+
+.txt-quem-somos h1 {
+    font-size: 4em;
+    line-height: 70px;
+    font-weight: 300;
+    color: #999b9b;
+    padding: 40px;
+    margin-top: 80px 0;
+}
+
+.txt-quem-somos h1 span {
+    color: #413f3f;
+    font-weight: 700;
+}
+
+section.quem-somos {
+    padding: 80px 0;
+}
+
+.quem-somos .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.quem-somos .itens-container .img-itens img {
+    max-width: 350px;
+}
+
+.quem-somos .itens-container .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50ox;
+    margin-bottom: 20px;
+}
+
+.quem-somos .itens-container .txt-itens h3 span {
+    font-weight: 200;
+}
