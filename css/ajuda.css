@@ -1,0 +1,230 @@
+* {
+  color: #4b525c;
+  flex-wrap: nowrap;
+}
+
+header{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.3rem 1rem;
+  height: 8vh;
+  font-size: 1.5em;
+  background-color: #fff;
+  border-bottom: #000000 1px solid;
+}
+
+.menu-icon {
+  font-size: 2em;
+}
+
+header > ul {
+  display: none;
+}
+
+.titulo-principal {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin: 0;
+}
+
+.titulo-principal > H1 {
+  display: inline-block;
+  width: 90%;
+}
+
+.problematizacao {
+  background-color: #aab9cf;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 2rem;
+}
+
+.problematizacao > p {
+  padding: 0 1rem;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  display: flex;
+  line-height: 1;
+}
+
+.problemas {
+  padding: 0;
+  padding-left: 2.5rem;
+}
+
+.problemas > li {
+  margin-top: 0.5rem;
+}
+
+.solucoes {
+  background-color: #d3ead3;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 2rem;
+}
+
+.solucoes > h1 {
+  width: 92%;
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.6rem;
+  margin: auto;
+}
+
+.solucoes > ul {
+  list-style: none;
+}
+
+.solucoes-lista {
+  padding: 0;
+  padding-left: 2rem;
+}
+
+.solucoes-lista > li {
+  margin-top: 0.5rem;
+}
+
+.to-do {
+  background-color: #f2e394;
+  border-radius: 5%;
+  padding: 2rem 1rem;
+  margin: 2rem;
+  text-align: center;
+}
+
+.to-do > h2 {
+  font-size: 2.5em;
+  display: inline-flex;
+  width: 90%;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.btn-to-do {
+  background-color: #aab9cf;
+  color: white;
+  margin: 2rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1.6em;
+  color: #4a4a4a;
+}
+
+.btn-to-do:hover {
+  background-color: #e57373;
+  color: white;
+}
+
+.to-do-list {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.to-do-list > li {
+  list-style: none;
+  border: 1px solid #000000;
+  padding: 0.5rem;
+  text-align: center;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    width: 90%;
+    margin: 2rem auto;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5%;
+    gap: 2rem;
+  }
+
+  .problematizacao {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 8%;
+  }
+
+  .solucoes {
+    width: 100%;
+    margin: 1rem 15% 1rem auto;
+  }
+
+    .to-do {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .to-do > h2{
+      text-align: center;
+      justify-content: center;
+    }
+  }
+
+
+@media (min-width: 1024px){
+  .problematizacao {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .solucoes {
+    width: 80%;
+    margin: 1rem auto;
+  }
+
+  .container {
+    display: grid;
+    width: 90%;
+    margin: 2rem 5rem 2rem;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 5%;
+  }
+
+  .to-do {
+    width: 80%;
+    margin: 1rem auto;
+    height: 65vh;
+  }
+
+  .to-do > h2 {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .to-do__title{
+    margin-top: 6rem;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  header > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+  }
+}
+
