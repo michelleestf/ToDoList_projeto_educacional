@@ -17,57 +17,61 @@
         <li><a href="ajuda">Ajuda</a></li>
         <li><a href="sobre">Sobre</a></li>
       </ul>
+
+      <span class="menu-icon">☰</span>
     </header>
-    <hr />
 
-    <div class="problematizacao">
-      <h1 class="titulo-principal">A desorganização do dia a dia</h1>
+    <div class="container">
+      <div class="problematizacao">
+        <h1 class="titulo-principal">A desorganização do dia a dia</h1>
 
-      <p>
-        Você já se sentiu sobrecarregado, como se o dia passasse voando e as
-        tarefas ficassem para depois?
-      </p>
+        <p>
+          Você já se sentiu sobrecarregado, como se o dia passasse voando e as
+          tarefas ficassem para depois?
+        </p>
 
-      <!-- Aqui podemos colocar as linhas como checklist ✅-->
+        <!-- Aqui podemos colocar as linhas como checklist ✅-->
 
-      <ul class="problemas">
-        <li>
-          <strong>Esquecimentos:</strong> prazos perdidos, compromissos
-          importantes deixados de lado
-        </li>
-        <li>
-          <strong>Acumulo de tarefas:</strong> o que era simples vira urgente e
-          o estresse só aumenta
-        </li>
-        <li>
-          <strong>Falta de foco:</strong> sem um plano claro, é fácil se perder
-          entre tantas demandas
-        </li>
-        <li>
-          <strong>Ansiedade:</strong> a sensação constante de que algo ficou
-          para trás
-        </li>
-      </ul>
-    </div>
+        <ul class="problemas">
+          <li>
+            <strong>Esquecimentos:</strong> prazos perdidos, compromissos
+            importantes deixados de lado
+          </li>
+          <li>
+            <strong>Acumulo de tarefas:</strong> o que era simples vira urgente
+            e o estresse só aumenta
+          </li>
+          <li>
+            <strong>Falta de foco:</strong> sem um plano claro, é fácil se
+            perder entre tantas demandas
+          </li>
+          <li>
+            <strong>Ansiedade:</strong> a sensação constante de que algo ficou
+            para trás
+          </li>
+        </ul>
+      </div>
 
-    <div class="solucoes">
-      <h1>A solução simples e eficaz: <br />To Do List</h1>
+      <div class="solucoes">
+        <h1>A solução simples e eficaz: <br />To Do List</h1>
 
-      <!-- Aqui podemos colocar as linhas como checklist ✅-->
+        <!-- Aqui podemos colocar as linhas como checklist ✅-->
 
-      <ul class="solucoes-lista">
-        <li>
-          ✅ Visualiza suas tarefas com clareza: nada fica perdido ou esquecido
-        </li>
-        <li>✅ Define prioridades: o que é mais importante vem primeiro</li>
-        <li>
-          ✅ Acompanha seu progresso: cada tarefa concluída é um passo a mais na
-          direção dos seus objetivos
-        </li>
-        <li>
-          ✅ Ganha tempo e tranquilidade: menos preocupação e mais agilidade
-        </li>
-      </ul>
+        <ul class="solucoes-lista">
+          <li>
+            ✅ Visualiza suas tarefas com clareza: nada fica perdido ou
+            esquecido
+          </li>
+          <li>✅ Define prioridades: o que é mais importante vem primeiro</li>
+          <li>
+            ✅ Acompanha seu progresso: cada tarefa concluída é um passo a mais
+            na direção dos seus objetivos
+          </li>
+          <li>
+            ✅ Ganha tempo e tranquilidade: menos preocupação e mais agilidade
+          </li>
+        </ul>
+      </div>
     </div>
 
     <div class="to-do">
@@ -76,16 +80,28 @@
 
       <!-- Botão (não funcional ainda) -->
 
-      <button>Comece sua lista hoje</button>
+      <button class="btn-to-do">Comece sua lista hoje</button>
 
-      <h2>Lista de Tarefas</h2>
-      <!-- Aqui podemos colocar em uma segunda pagina diretamente com o To Do List.) -->
-      <ul>
-        <li>Título da Tarefa:</li>
-        <li>Descrição breve do que precisa ser feito</li>
-        <li>Data limite / prazo (se houver)</li>
-        <li>Status: Pendente / Em andamento / Concluído</li>
-      </ul>
+      <div class="to-do__title">
+        <h2>Lista de Tarefas</h2>
+        <!-- Aqui podemos colocar em uma segunda pagina diretamente com o To Do List.) -->
+        <ul class="to-do-list">
+          <li>Título da Tarefa:</li>
+          <li>Descrição</li>
+          <li>Data limite / prazo</li>
+          <li>Status</li>
+
+          <!-- carlos: adicionei para testar o grid -->
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>✔</li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li>✖</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
