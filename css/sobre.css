@@ -131,6 +131,10 @@ section.quem-somos {
     background: #e7e5e5;
 }
 
+.txt-itens .center {
+    margin-left: 100px;
+}
+
 .quem-somos .itens-container:hover {
     box-shadow: 0 3px 6 px rgb(37, 15, 15), 0 3px 6 px rgb(37, 15, 15);
     transform: translate(0px, -8px);
